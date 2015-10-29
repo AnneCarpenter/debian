@@ -1,0 +1,15 @@
+Source: cellprofiler
+Section: unknown
+Priority: optional
+Maintainer: Allen Goodman <allen.goodman@icloud.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://www.cellprofiler.org
+Vcs-Bzr: lp:cellprofiler/cellprofiler
+Vcs-Git: https://github.com/CellProfiler/CellProfiler.git
+Vcs-Browser: https://github.com/CellProfiler/CellProfiler
+Package: cellprofiler
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: finds phenotypes in an image
+ finds phenotypes in an image
